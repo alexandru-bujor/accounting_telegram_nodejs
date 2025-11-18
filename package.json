@@ -1,0 +1,16 @@
+{
+  "name": "inventory-telegram-bot-inline-table",
+  "version": "1.1.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "seed": "node seed.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "lowdb": "^7.0.1",
+    "pdfkit": "^0.17.2",
+    "telegraf": "^4.16.3"
+  }
+}
